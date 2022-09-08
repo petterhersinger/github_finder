@@ -1,10 +1,11 @@
 import React, { Fragment } from 'react'
 import UserResults from '../users/UserResults'
+import UserSearch from "../users/UserSearch"
 
 function Home() {
   return (
     <>
-      {/* SEARCH */}
+      <UserSearch />
       <UserResults />
     </>
   )
